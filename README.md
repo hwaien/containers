@@ -1,3 +1,3 @@
-# Fork of the Bitnami Containers Library
+# Fork of the Bitnami Odoo Container
 
-Popular applications, originally prepared by [Bitnami](https://bitnami.com), containerized and ready to launch.
+Odoo, originally prepared by [Bitnami](https://bitnami.com), containerized and ready to launch.
