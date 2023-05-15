@@ -76,7 +76,7 @@ is_dir_empty() {
 is_mounted_dir_empty() {
     local dir="${1:?missing directory}"
 
-    if is_dir_empty "$dir" || find "$dir" -mindepth 1 -maxdepth 1 -not -name ".snapshot" -not -name "lost+found" -exec false {} +; then
+    if is_dir_empty "$dir" || find "$dir" -mindepth 1 -maxdepth 1 -not -name "addons" -not -name ".snapshot" -not -name "lost+found" -exec false {} +; then
         true
     else
         false
